@@ -57,5 +57,3 @@ def forward(x,xp,yp):
 print(xs)
 print(ys)
 print(forward(7,xs,ys)) # calling the function with necessary parameters
-    
-    

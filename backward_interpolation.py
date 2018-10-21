@@ -57,5 +57,3 @@ def backward(x,xp,yp):
 print(xs)
 print(ys)
 print(backward(35,xs,ys)) # calling the function with necessary parameters
-    
-    

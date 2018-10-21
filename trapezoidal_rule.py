@@ -1,9 +1,9 @@
 # Trapezoidal Rule for numerical Integration
 def f(x):
-	return x**4-5*x**3+7
+	return x**4-2*x+1
 
 def int(func,a,b):
-	n = 100000
+	n = 10000000000
 	h = (b-a)/n
 	s = (1/2)*(func(a)+func(b))
 	
@@ -12,4 +12,4 @@ def int(func,a,b):
 	return h*s
 
 
-print(int(f,5,10))
+print(int(f,0,2))
