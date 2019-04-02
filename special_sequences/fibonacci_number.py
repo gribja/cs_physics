@@ -1,10 +1,17 @@
 # fibonacci number
 
 def fibonacci(n):
-    if n<=1:
-        return n
-    else:
-        return fibonacci(n-1) + fibonacci(n-2)
-
-for i in range(25):
-    print(fibonacci(i))
+	a=0
+	b=1
+	for i in range(n):
+		if i<=0:
+			print(a)
+		elif i==1:
+			print(b)
+		else:
+			c=a+b
+			a=b
+			b=c
+			print(c)
+		
+fibonacci(10)
